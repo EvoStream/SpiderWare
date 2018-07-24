@@ -46,7 +46,7 @@ transcode source=<sourceURL> groupName=<groupName> destinations=<destinationStre
 ### Sample API Call
 
 ``` 
-transcode source=rtmp://s2pchzxmtymn2k.cloudfront.net/cfx/st/mp4:sintel.mp4 groupName=testGroup destinations=testTranscode groupName=group videoBitrates=200k audioBitrates=copy 
+transcode source=rtmp://s2pchzxmtymn2k.cloudfront.net/cfx/st/mp4:sintel.mp4 destinations=testTranscode groupName=group videoBitrates=200k audioBitrates=copy 
 ```
 
 
