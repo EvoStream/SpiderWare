@@ -28,7 +28,7 @@ Follow the instructions below on how to use WebRTC for streaming:
 1. To play streams from EMS using webRTC, the `startWebrtc` command needs to be executed first. See `startWebRTC`API [here](api_startWebRTC.html):
 
    ```
-   startwebrtc ersip=54.174.188.145 ersport=4545 roomid=MyRoom
+   startwebrtc ersip=52.6.14.61 ersport=4545 roomid=MyRoom
    ```
 
    **Note:** The room name should be **unique** as much as possible, especially when using the public ERS to prevent room name conflicts. If the room name is already taken, EMS would return an error on the console logs to indicate such scenario.
