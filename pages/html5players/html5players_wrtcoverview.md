@@ -49,7 +49,7 @@ Peer to peer works when the _EMS is installed and running on the camera, wearabl
 EvoStream provides a hosted EvoStream Rendezvous Server at **52.6.14.61:4545**. Click [here](ers.evostream.com:5050/demov2/evoplayers.html) for the player. This server can be used for testing and for deployment. This can be used with the EMS by issuing the following API command:
 
 ```
-startWebRTC ersIP=52.6.14.61 ersPort=3535 roomID=YourRoom
+startWebRTC ersIP=52.6.14.61 ersPort=4545 roomID=YourRoom
 ```
 
 **It is VERY IMPORTANT TO NOTE:**
