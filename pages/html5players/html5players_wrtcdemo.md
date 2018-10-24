@@ -126,6 +126,6 @@ Connections to ERS, from the client (browser) and server (EMS), can now also use
 
 ## Related Links
 
-- [Starting WebRTC](api/startWebRTC.html)
+- [Starting WebRTC](startWebRTC.html)
 - [Stopping WebRTC](stopWebRTC.html)
 
