@@ -1095,7 +1095,8 @@ authentication=
 
 ### eventLogger
 
-Settings for the server-wide event sinks. See [Events Overview](api_eventsoverview.html) for more details.
+Settings for the server-wide event sinks. See [Events Overview](eventsoverview.html) for more details.
+
 
 **Type:** Object
 
