@@ -1096,7 +1096,7 @@ authentication=
 ### eventLogger
 
 Settings for the server-wide event sinks. See [Events Overview](api_eventsoverview.html) for more details.
-s
+
 **Type:** Object
 
 **Mandatory:** No
