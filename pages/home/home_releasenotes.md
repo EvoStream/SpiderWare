@@ -7,6 +7,13 @@ folder: home
 toc: false
 ---
 
+# EMS 2.0.2
+
+## Notable Bug Fixes
+
+- Fixed RTMPS push issue
+
+
 # EMS 2.0.1
 
 ## Notable Bug Fixes
