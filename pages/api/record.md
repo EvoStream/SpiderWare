@@ -24,7 +24,7 @@ Records any inbound stream. The `record` command allows users to record a stream
 |        type         | string  |   false   |      mp4      | **TS** or **MP4** or **FLV**             |
 |      overwrite      | boolean |   false   |   0 *false*   | If **false**, when a file already exists for the stream name, a new file will be created with the next appropriate number appended. If **true**, files with the same name will be overwritten |
 |      keepAlive      | boolean |   false   |   1 *true*    | If **true**, the server will restart recording every time the stream becomes available again |
-|     chunkLength     | integer |   false   | 0 *disabled*  | If non-zero the record command will start a new recording file after `chunkLength` seconds have elapsed |
+|     chunkLength     | integer |   false   | 0 *disabled*  | If non-zero the record command will start a new CHUNK file after chunkLength seconds have elapsed |
 |     waitForIDR      | boolean |   false   |   1 *true*    | This is used if the recording is being chunked. When true, new files will only be created on IDR boundaries |
 |     winQtCompat     | boolean |   false   |   0 *false*   | Mandates 32bit header fields to ensure compatibility with Windows QuickTime |
 | dateFolderStructure | boolean |   false   |   0 *false*   | If **true**, folders will be created with names in **YYYYMMDD** format. Recorded files will be placed inside these folders based on the date they were created |
