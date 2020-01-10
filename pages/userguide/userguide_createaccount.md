@@ -32,4 +32,4 @@ To add a local account using an email address:
 **Notes:** 
 
 - Only one local account can be created. 
-- If you want to change the email registered, you need to delete the **user.json** file in `node_modules\ems_web_ui\data`. This will remove the registered email and linked social media accounts in use.
+- If you want to change the email registered, you need to delete the **user.json** file in `usr\bin\node-webui\data\`. This will remove the registered email and linked social media accounts in use.
