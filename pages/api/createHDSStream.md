@@ -34,7 +34,7 @@ Create an HDS (HTTP Dynamic Streaming) stream out of an existing H.264/AAC strea
 ## API Call Template
 
 ``` 
-createHDSStream localStreamname=<localStreamName> targetfolder=<webrootFolder> groupname=<groupName>
+createHDSStream localStreamnames=<localStreamName> targetfolder=<webrootFolder> groupname=<groupName>
 ```
 
 
