@@ -39,7 +39,7 @@ Create Dynamic Adaptive Streaming over HTTP (DASH) out of an existing H.264/AAC 
 ## API Call Template
 
 ``` 
-createDASHStream localStreamname=<localStreamName> targetfolder=<webrootFolder> groupname=<groupName>
+createDASHStream localStreamnames=<localStreamName> targetfolder=<webrootFolder> groupname=<groupName>
 ```
 
 
