@@ -49,7 +49,7 @@ Create a HTTP Live Stream (HLS) out of an existing H.264/AAC stream.  HLS is us
 ## API Call Template
 
 ``` 
-createHLSStream localStreamname=<localStreamName> targetfolder=<webrootFolder> groupname=<groupName>
+createHLSStream localStreamnames=<localStreamName> targetfolder=<webrootFolder> groupname=<groupName>
 ```
 
 
