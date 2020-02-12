@@ -40,7 +40,7 @@ Create a Microsoft Smooth Stream (MSS) out of an existing H.264/AAC stream. Smoo
 ## API Call Template
 
 ``` 
-createMSSStream localStreamname=<localStreamName> targetfolder=<webrootFolder> groupname=<groupName>
+createMSSStream localStreamnames=<localStreamName> targetfolder=<webrootFolder> groupname=<groupName>
 ```
 
 
