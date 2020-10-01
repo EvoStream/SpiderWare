@@ -6,90 +6,44 @@ permalink: /home_releasenotes.html
 folder: home
 toc: false
 ---
+# SpiderWare 1.1.4.1
+- Bug fixes 
 
-# EMS 2.0.2
+# SpiderWare 1.1.4.0
+- WebRTC inbound to RTSP outbound support
+- Bug fixes 
 
-## Notable Bug Fixes
-
-- Fixed RTMPS push issue
-
-
-# EMS 2.0.1
-
-## Notable Bug Fixes
-
-- Removed Google and Facebook account login options on the UI login page to prevent unauthorized access
-- Fixed an issue where you were unable to play VOD files using aliasing in Windows
-- Restricted API’s used by angular for better UI security
-- Fixed playback of RTMP streams when the EMS is running in daemon clustered mode
-- Fixed playback in Edge where buffer clearing (which is used to maintain low latency) caused playback skipping
-- Minor UI improvements such as fixing API names in API explorer and corrected port number entry in dashboard
+# SpiderWare 1.1.3.3
+- Enhanced logging mechanism: human readable timestamps
+- Bug fixes 
 
 
+# SpiderWare 1.1.3.2
+- Modifications for Axis build
+- Bug fixes
 
 
-
-# EMS 2.0.0
-
-## Highlights
-
-- HEVC/H.265 support - HLS and DASH playback
-- New Web UI - Node.js based with full access to EMS API
-- New Evo-Webserver based on Node.js
-- IPv6 support for all protocols
-- Integration ready player libraries for Browsers, iOS and Android
-- Direct playback via `<video>` tag, no player required!
-- New Raspberry-Pi hardware-enabled transcoder
+# SpiderWare 1.1.3.1
+- WebRTC inbound and outbound (connect with another SpiderWare instance)
+- P2P-relay/SFU switching
+- Bug fixes
 
 
-------
-
-## New Features
-
-- Android/iOS Peer to peer (WebRTC) playback now uses SRTP
-- HTML5 Events for easy integration of Browser Player
-- Rewritten example webservices into Javascript
-- Server-Side-Playlist support for WebRTC and Websocket/HTML playback
-- Lazy-Pull support for WebRTC and Websocket/HTML playback
-- TCP TURN now available for WebRTC connections
-- TLS encrypted ERS Communications for browser and EMS connections
-- Support for COTURN and other compatible STUN/TURN servers
-- Metadata delivery over websockets
-
-
-------
-
-## New APIs
-
-- addMetadataListener - adding metadata listeners on the fly
-- listMetadataListeners - list these metadata ingestion points
-- getInboundStreamsCount - a more precise method versus GetStreamsCount
-- getLicenseId - to programatically retrieve your license id. used by the new UI
+# SpiderWare 1.1.2.2
+- RTSP pull and playback
+- Recording (MP4)
+- Command API (HTTP/HTTPS requests)
+- Logging (adjustable verbosity, console and file sinks)
+- Viewer demo page
+- Built-in SFU
+- Multiple media streams on single peer connection
+- Peer presence notification (online, offline events)
+- Stream statistics
+- Windows installer (updated icons, code signing certificate, executables)
+- Bug fixes
 
 
-------
-
-## New Events
-
-- hdsChunkClosed
-- hlsChunkClosed
-- dashChunkClosed
-- webRtcServiceStarted
-- webRtcServiceStopped
-
-
-------
-
-## Notable Bug Fixes
-
-- Log files will now roll appropriately including between runs of the EMS
-- HTTP-Proxy now properly uses "?" instead of "%3f" to separate the parameters from the URL
-- Major improvements to Websocket and WebRTC browser player
-- Proper retry of ERS connection if a disconnect occurs
-- Added an RTSP buffer variable in config.lua to prevent trimming of very large key-frames
-- Fixed FUA issue on outbound RTP/RTSP streams
-- fixed random stream name on MPEG-TS push
-- Fixed infrequent audio/video sync issue on DASH
-- Fixed processing of playlistname and chunkbasename parameters for createHLSstream command
-- Fixed to allow audio/video only HLS
-- Fixed an issue in the mp4writer where it would choke on very large files
+# SpiderWare 1.0.0.0
+- WebRTC support
+- Demo page
+- EXM manager
