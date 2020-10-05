@@ -7,12 +7,6 @@ folder: home
 toc: false
 ---
 
-This document provides instructions on how to use the SpiderWare application. It will cover the basics of starting the application as well as some advanced topics like modifying configuration files
-
-This document is written for users of SpiderWare. It is expected that readers have a basic understanding of multimedia streaming, WebRTC, and the technologies required to perform broadcasting.
-
-
-
 ## What is SpiderWare?
 
 SpiderWare is a WebRTC based streaming application that supports direct peering between HTML5 browsers and any device that supports WebRTC. SpiderWare’s flexible architecture allows it to be readily integrated with any application to empower it  with peer-to-peer audio, video and meta-data streaming within any network environment.  To speed up your time to market, SpiderWare's team of streaming experts helps you develop, maintain and deploy your solution successfully.
