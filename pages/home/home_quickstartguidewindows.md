@@ -10,7 +10,7 @@ toc: true
 ## Purpose
 
 This document provides instructions on how to install SpiderWare application on Windows operating systems.
-The document also provide instructions for some basic features of the EMS such as installing and starting SpiderWare, adding and playing source streams and shutting down SpiderWare.
+The document also provide instructions on installing and starting SpiderWare, adding and playing source streams and shutting down SpiderWare.
 
 
 
