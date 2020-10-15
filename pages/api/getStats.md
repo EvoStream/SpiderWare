@@ -11,35 +11,45 @@ toc: false
 
 Retrieves WebRTC statistics of a specified peer ID.
 
-## Modules
-Core, WebRTC
+**Modules:** Core, WebRTC
+
 
 
 ## API Parameter Table
 
-| **Parameter Name** |  Type  | **Mandatory** | **Default Value** | **Description**                    |
-| :----------------: | :----: | :-----------: | :---------------: | ---------------------------------- |
-|        peerID      | string |     true      |      *null*       | The Peer ID of the WebRTC peer     |
+| **Parameter Name** |  Type  | **Mandatory** | **Description**                    |
+| :----------------: | :----: | :-----------: | ---------------------------------- |
+|        peerID      | string |     true      | The Peer ID of the WebRTC peer     |
 
 
 
 ## API Call Template
 
 ``` 
-http://localhost:9090/command/core/getStats
+http://<spiderwareIP>:9090/command/<module>/getStats
 ```
 
 **Body**
 ``` 
 {
-    "peerId": "Q3QidO7EoAY1xn01AAFV"
+    "peerId": "<peerID>"
 }
 ``` 
 
 
+## Sample API Call
+``` 
+http://localhost:9090/command/core/getStats
+
+{
+    "peerId": "Q3QidO7EoAY1xn01AAFV"
+}
+```
+
 
 ### Success Response in JSON
 
+**Response in Core**
 ``` 
 {
     "success": true,
@@ -49,6 +59,15 @@ http://localhost:9090/command/core/getStats
 }
 ```
 
+**Response in WebRTC**
+``` 
+{
+    "success": true,
+    "result": {
+        "peerId": "Q3QidO7EoAY1xn01AAFV"
+    }
+}
+```
 
 
 #### JSON Response
