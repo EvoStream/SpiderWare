@@ -67,11 +67,11 @@ http://localhost:9090/command/core/help
                     {
                         "name": "delay",
                         "type": "int",
-                        "desc": "Number of seconds before shutting down. 0 by default, which means immediately",
+                        "description": "Number of seconds before shutting down. 0 by default, which means immediately",
                         "required": true
                     }
                 ],
-                "desc": "Shuts down a specific running instance.",
+                "description": "Shuts down a specific running instance.",
                 "module": "core"
             }
         ]
@@ -90,12 +90,12 @@ The JSON response contains the following details:
   - command – The list of command information
     - name – Command name
     - params - List of parameters
-            - name - Parameter name
-            - type – Parameter value type
-            - desc – Describes the use of the parameter
-            - required - Parameter requirement
-  - description – API description
-  - module – Supporting module name
+         - name - Parameter name
+         - type – Parameter value type
+         - description – Describes the use of the parameter
+         - required - Parameter requirement
+     - description – API description
+     - module – Supporting module name
 
 ------
 
