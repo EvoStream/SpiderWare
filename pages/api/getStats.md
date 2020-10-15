@@ -17,9 +17,9 @@ Retrieves WebRTC statistics of a specified peer ID.
 
 ## API Parameter Table
 
-| **Parameter Name** |  Type  | **Mandatory** | **Description**                    |
-| :----------------: | :----: | :-----------: | ---------------------------------- |
-|        peerID      | string |     true      | The Peer ID of the WebRTC peer     |
+| **Parameter Name** |  **Type**  | **Mandatory** | **Description**                    |
+| :----------------: | :--------: | :-----------: | ---------------------------------- |
+|        peerID      |   string   |     true      | The Peer ID of the WebRTC peer     |
 
 
 
@@ -39,7 +39,7 @@ http://<spiderwareIP>:9090/command/<module>/getStats
 
 ## Sample API Call
 ``` 
-http://localhost:9090/command/core/getStats
+http://localhost:9090/command/webrtc/getStats
 
 {
     "peerId": "Q3QidO7EoAY1xn01AAFV"
@@ -49,17 +49,6 @@ http://localhost:9090/command/core/getStats
 
 ### Success Response in JSON
 
-**Response in Core**
-``` 
-{
-    "success": true,
-    "result": {
-        "peerId": "Q3QidO7EoAY1xn01AAFV"
-    }
-}
-```
-
-**Response in WebRTC**
 ``` 
 {
     "success": true,
@@ -74,6 +63,7 @@ http://localhost:9090/command/core/getStats
 
 The JSON response contains the following details:
 
+- status – **TRUE** if the command was parsed and executed successfully, **FAIL** if not.
 - peerID – ID of the WebRTC peer 
 - local – Statistics of SpiderWare WebRTC connection
 - remote – Present if applicable / available. Statistics of remote peer connection
