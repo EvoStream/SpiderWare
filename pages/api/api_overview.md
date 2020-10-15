@@ -7,14 +7,31 @@ folder: api
 toc: false
 ---
 
-This document describes the Application Programming Interface (API) and Event Notification Systems presented by the EvoStream Media Server (EMS).
+## Transport protocol
+The API command parameters are sent as a JSON payload in an HTTP 1.1 POST method, while the command and target module are found in the HTTP URL. SpiderWare’s HTTP port for API commands is configurable on config.json.
 
-The EMS provides a bi-directional RESTful API for interacting with it both manually and programmatically. It allows you to write simple web services and scripts to extend and build your own logic on top of the EMS.
+### API Request
+The API Request has the following URL format:
+``` 
+http://<server-host>:<api-port>/command/<target-name>/<command-name>
+``` 
 
-The API is composed of two parts. The calls you can make into the EMS is our **API**. The second part is the **Event Notification System** which calls you back when stuff happens with the EMS.
+**server-host:** valid hostname or accessible ip address of SpiderWare
+**api-port:** pre-configured port for SpiderWare API calls
+**target-name:** the name of the target module, e.g. webrtc, rtsp. If the target module is unknown, or the command is to be sent to the spiderware core, target-name should be core. If the target-name is core, SpiderWare will try to execute the command to all applicable modules and send the result as an aggregate.
+**command-name:** specifies the name of the command to be called. All modules are not expected to support all commands.
 
-The API provides the ability to manipulate the server at runtime. The server can be told to retrieve or create new streams, return information on streams and connections, or even start or stop functional services.  The [Event Notification System](eventsoverview.html) provides a means for the EMS to alert users of certain events that occur within the EMS, such as a new stream is created, a stream has been dropped, server stopped, etc. 
+The command parameters are enclosed in a JSON string inside the HTTP Body. An example of using JavaScript to send the command can be found at the appendix section.
 
-Using these two halves of the API you can perform complex load balancing, create custom stream work flows, encrypt and protect your stream traffic and more, all on the fly, and with simple and efficient web services or local scripts.
+### API Response
+If target-name does not exist or a command-name is not implemented in the specified target-name, SpiderWare will return an HTTP 404 Error. Otherwise, API responses are sent as JSON payload in the corresponding HTTP 1.1 response message with a 200 OK status. 
 
-EvoStream provides a set of sample web services that leverage the API. These web services can be found on our website and can be used directly or leveraged to start your own project. Download them [here](https://evostream.com/software-downloads/).
+***API Response Payload (to be implemented)***
+
+|       **Key**      |  **Value Type**  | **Description**                                                             |
+| :----------------: | :--------------: | --------------------------------------------------------------------------- |
+|       success      |      boolean     | True if successful, false if there are errors                               |
+|       result       |       JSON       | May be present when success is true. API result payload                     |
+|      errorDesc     |      string      | May be present when success is false. Specifies the reason for the error    |
+
+
