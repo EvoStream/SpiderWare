@@ -27,7 +27,7 @@ http://<spiderwareIP>:9090/command/<module>/getServerInfo
 ### Sample API Call
 
 ```
-http://<spiderwareIP>:9090/command/core/getServerInfo
+http://127.0.0.1:9090/command/core/getServerInfo
 ```
 
 
