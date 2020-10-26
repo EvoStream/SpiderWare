@@ -55,7 +55,7 @@ http://<spiderwareIP>:9090/command/<module>/addStream
 ### Sample API Call
 
 ``` 
-http://localhost:9090/command/rtsp/addStream
+http://127.0.0.1:9090/command/rtsp/addStream
 
 {
     "type": "rtsp",
@@ -70,7 +70,12 @@ http://localhost:9090/command/rtsp/addStream
 ### Success Response in JSON
 
 ``` 
-
+{
+    "success": true,
+    "result": {
+        "streamId": "ST_4d4c25027f03"
+    }
+}
 ```
 
 
@@ -79,16 +84,15 @@ http://localhost:9090/command/rtsp/addStream
 
 The JSON response contains the following details:
 
-
-
-- description – Describes the result of parsing/executing the command
-- status – **SUCCESS** if the command was parsed and executed successfully, **FAIL** if not.
+- status – **true** if the command was parsed and executed successfully, **false** if not.
+- result - the result of the API call
+    - streamId - the name assigned to the stream. If missing, the generated unique stream identifier will be its name
 
 ------
 
 ## Notes
 
-- The added storage is not added in the media storage inside config.lua
+- Direction "out" is not supported in MP4 module.
 
 
 ------
