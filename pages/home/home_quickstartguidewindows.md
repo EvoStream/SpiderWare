@@ -7,14 +7,12 @@ folder: home
 toc: true
 ---
 
-## Purpose
-
 This document provides instructions on how to install SpiderWare application on Windows operating systems.
 The document also provide instructions on installing and starting SpiderWare, adding and playing source streams and shutting down SpiderWare.
 
 
 
-## Getting SpiderWare
+# Getting SpiderWare
 
 1. Download the SpiderWare package installer at <https://spiderware.evostream.com/release/>
 ```
@@ -61,14 +59,16 @@ Password : wWCU4iTG#$c4Pfq@
    ​
 
 
-## License Installation
+# License Installation
 
 **Note:** You should already have your license file available. If none, SpiderWare offers a **30-day free trial** license to those who want to explore the features of SpiderWare. Click [here](https://evostream.com/free-trial/) to avail the free trial or contact [salesupport@evostream](mailto:salessupport@evostream.com) for other license type purchase.
 
 To install the license, simply copy the `License.lic` file to `C:\Program Files\SpiderWare`.
 
 
-## Configuring SpiderWare
+
+# Configuring SpiderWare
+
 You can find the configuration file in `C:\Program Files\SpiderWare\config\config.json`
 
 
@@ -94,37 +94,42 @@ SpiderWare by EvoStream
 ```
 
 
-## Adding Source Stream
+
+# Adding Source Stream
+
 To add an RTSP source to SpiderWare, send the following HTTP POST request (assuming that SpiderWare and client used to send the command is on the same machine):
 ```
 url: http://localhost:9090/command/rtsp/addStream
-data: {
+
+data: 
+{
 "type":"rtsp",
 "direction":"in",
 "path":"<rtsp source>",
 "name":"<target stream name>"
 }
-
 ```
 
 
-For example, an RTSP source “rtsp://192.168.0.103:10000/test.sdp” is to be added and with a target stream name of “bunny”, using a cURL command would be:
+For example, an RTSP source “**rtsp://192.168.0.103:10000/test.sdp**” is to be added and with a target stream name of “bunny”, using a cURL command would be:
 ```
 curl --header "Content-Type: application/json" --request POST --data "{ \"type\":\"rtsp\", \"direction\":\"in\", \"path\":\"rtsp://192.168.0.103:10000/test.sdp\", \"name\":\"bunny\" }" http://localhost:9090/command/rtsp/addStream
 ```
 
-   
-## Stream Playback
+
+
+# Stream Playback
+
 To view the RTSP stream through webrtc with a demo page:
 1. Using a browser, open https://exm.evostream.com/viewer/
 2. Enter the session name on the input field that matches the session parameter on the config.json file that you received
-3. Click on “Connect”
+3. Click on “**Connect**”
 4. On the left pane of the demo page, select a stream from currently connected SpiderWare instances.
 
 
 
 
-## Stopping SpiderWare
+# Stopping SpiderWare
 
 If the user wants to shut down the SpiderWare application, just send the command:
 
@@ -140,7 +145,7 @@ Take note of the Instance ID, then send the shutdown command:
 shutdownServer instanceID=<instanceID>
 ```
 
-The SpiderWare will shut down after sending the command.
+The SpiderWare will shut down after sending the command or simply press CTRL+C
 
 
 
