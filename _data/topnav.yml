@@ -3,18 +3,12 @@
 topnav:
 - title: Topnav
   items:
-    - title: HOME
+    - title: Home
       url: /index.html
-    - title: USER GUIDE
+    - title: User Guide
       url: /userguide_overview.html
-    - title: API GUIDE
-      url: /api_overview.html
-    - title: ERS and HTML5 PLAYERS
-      url: /html5players_ersoverview.html
-    - title: EMS ON CLOUD
-      url: /emscloud_overview.html
-    - title: EVOWEBSERVICES
-      url: /evowebservices_overview.html
+    - title: ExM
+      url: /exm_overview.html
 
 #Topnav dropdowns
 #topnav_dropdowns:
