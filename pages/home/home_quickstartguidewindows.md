@@ -30,31 +30,31 @@ Password : wWCU4iTG#$c4Pfq@
 
    2.3. Click **Next** to continue the installation
 
-   ![](images/userguide/install_1.JPG)
+   ![](images/home/install_1.JPG)
 
    ​
 
    2.4. Verify the installation path, click **Next**
 
-   ![](images/userguide/install_2.JPG)
+   ![](images/home/install_2.JPG)
 
    ​
 
    2.5. Read the license agreement and select **I agree**, click **Next**
 
-   ![](images/userguide/install_3.JPG)
+   ![](images/home/install_3.JPG)
 
    ​
 
    2.6. Click **Next** to confirm the installation
 
-   ![](images/userguide/install_4.JPG)
+   ![](images/home/install_4.JPG)
 
    ​
 
    2.7. Click **Close** to finish the installation.
 
-   ![](images/userguide/install_5.JPG)
+   ![](images/home/install_5.JPG)
 
    ​
 
@@ -72,16 +72,20 @@ To install the license, simply copy the `License.lic` file to `C:\Program Files\
 You can find the configuration file in `C:\Program Files\SpiderWare\config\config.json`
 
 
+
+
 ## Starting SpiderWare
 
-To start SpiderWare, simply **double click on the shortcut icon** of SpiderWare or double click on `launch.bat` in the installed SpiderWare folder.
+To start SpiderWare, simply run the command below in terminal:
+
+```
+spiderware.exe config\config.json license\license
+```
 
 ![](images/home/shortcut.JPG)
 
 
-The shortcut icon calls the `spiderware.exe`. You may also run this executable found in the installed SpiderWare. Simply double-click to start the server. This script simply runs the application through the command prompt, using `spiderware.exe config\config.json license\license` as the main server configuration.
-You can also double-click on `launch.bat`. This is simply a script that does the same. 
-The SpiderWare will open a console:
+This will call the configuration file and validates the license in the given path
 
 ![](images/userguide/start.JPG)
 
@@ -95,33 +99,12 @@ SpiderWare by EvoStream
 
 
 
-# Adding Source Stream
-
-To add an RTSP source to SpiderWare, send the following HTTP POST request (assuming that SpiderWare and client used to send the command is on the same machine):
-```
-url: http://localhost:9090/command/rtsp/addStream
-
-data: 
-{
-"type":"rtsp",
-"direction":"in",
-"path":"<rtsp source>",
-"name":"<target stream name>"
-}
-```
-
-
-For example, an RTSP source “**rtsp://192.168.0.103:10000/test.sdp**” is to be added and with a target stream name of “bunny”, using a cURL command would be:
-```
-curl --header "Content-Type: application/json" --request POST --data "{ \"type\":\"rtsp\", \"direction\":\"in\", \"path\":\"rtsp://192.168.0.103:10000/test.sdp\", \"name\":\"bunny\" }" http://localhost:9090/command/rtsp/addStream
-```
-
 
 
 # Stream Playback
 
-To view the RTSP stream through webrtc with a demo page:
-1. Using a browser, open https://exm.evostream.com/viewer/
+To view the stream through WebRTC with a demo page:
+1. Using a browser, open https://exm.evostream.com/
 2. Enter the session name on the input field that matches the session parameter on the config.json file that you received
 3. Click on “**Connect**”
 4. On the left pane of the demo page, select a stream from currently connected SpiderWare instances.
@@ -131,23 +114,11 @@ To view the RTSP stream through webrtc with a demo page:
 
 # Stopping SpiderWare
 
-If the user wants to shut down the SpiderWare application, just send the command:
+If the user wants to shut down the SpiderWare application, simply press **CTRL+C**, enter **Y** to confirm.
 
 ```
-getServerInfo
+Are you sure you want to exit? Y/N:
 ```
 
 
-Take note of the Instance ID, then send the shutdown command:
-
-
-```
-shutdownServer instanceID=<instanceID>
-```
-
-The SpiderWare will shut down after sending the command or simply press CTRL+C
-
-
-
-Please refer to [SpiderWare User Guide](http://docs.evostream.com/spiderware/userguide.html) and [SpiderWare API Guide](http://docs.evostream.com/spiderware/api_overview.html) for more information.
 
