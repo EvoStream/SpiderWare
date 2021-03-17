@@ -1,6 +1,6 @@
 ---
 title: Overview
-keywords: SpiderWare
+keywords: spiderware
 sidebar: home_sidebar
 permalink: /home_overview.html
 folder: home
