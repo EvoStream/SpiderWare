@@ -29,9 +29,10 @@ http://<spiderwareIP>:9090/command/<module>/shutdown
 **Body**
 ``` 
 {
-    "instanceId":"gF6G6uicvr8VRD/czmylQE0XNtFh7AwxOyZGvzU17VWNZMViBPE2DcZcKgU8RYyq3giWJeQ0gvaV5QhN9h7Bt2G1CCvqdw=="
+"instanceId":"gF6G6uicvr8VRD/czmylQE0XNtFh7AwxOyZGvzU17VWNZMViBPE2DcZcKgU8RYyq3giWJeQ0gvaV5QhN9h7Bt2G1CCvqdw=="
 }
-``` 
+```
+
 
 
 ### Sample API Call
@@ -40,22 +41,29 @@ http://<spiderwareIP>:9090/command/<module>/shutdown
 http://<127.0..0.1>:9090/command/core/shutdown
 
 {
-    "instanceId":"gF6G6uicvr8VRD/czmylQE0XNtFh7AwxOyZGvzU17VWNZMViBPE2DcZcKgU8RYyq3giWJeQ0gvaV5QhN9h7Bt2G1CCvqdw=="
+"instanceId":"gF6G6uicvr8VRD/czmylQE0XNtFh7AwxOyZGvzU17VWNZMViBPE2DcZcKgU8RYyq3giWJeQ0gvaV5QhN9h7Bt2G1CCvqdw=="
 }
 
 ```
 
+
+
 ### Success Response in JSON
+
 ``` 
 {
     "success": true
 }
-``` 
+```
+
+
 
 #### JSON Response
 
 The JSON response contains the following details:
 - status – **true** if the command was parsed and executed successfully, **false** if not.
+
+
 
 
 ## Related Links

@@ -11,6 +11,8 @@ toc: false
 
 Retrieves WebRTC statistics of a specified peer ID.
 
+
+
 **Modules:** Core, WebRTC
 
 
@@ -34,10 +36,12 @@ http://<spiderwareIP>:9090/command/<module>/getStats
 {
     "peerId": "<peerID>"
 }
-``` 
+```
+
 
 
 ## Sample API Call
+
 ``` 
 http://localhost:9090/command/webrtc/getStats
 
@@ -45,6 +49,7 @@ http://localhost:9090/command/webrtc/getStats
     "peerId": "Q3QidO7EoAY1xn01AAFV"
 }
 ```
+
 
 
 ### Success Response in JSON
@@ -59,11 +64,12 @@ http://localhost:9090/command/webrtc/getStats
 ```
 
 
+
 #### JSON Response
 
 The JSON response contains the following details:
 
-- status – **TRUE** if the command was parsed and executed successfully, **FAIL** if not.
+- status – **true** if the command was parsed and executed successfully, **false** if not.
 - peerID – ID of the WebRTC peer 
 - local – Statistics of SpiderWare WebRTC connection
 - remote – Present if applicable / available. Statistics of remote peer connection
@@ -72,5 +78,6 @@ The JSON response contains the following details:
 
 ## Related Links
 
-- [getStreamInfo](getStreamInfo.html)
+- [getPeerId](getPeerId.html)
+
 

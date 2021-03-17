@@ -13,6 +13,8 @@ Sends metadata to a specific endpoint.
 Core, WebRTC
 
 
+
+
 ## API Parameter Table
 
 | **Parameter Name** |  Type  | **Mandatory** |**Description**                                                                |
@@ -32,16 +34,16 @@ http://spiderwareIP:9090/command/<module>/sendData
 ``` 
 {
 "peerId": "<peerID",
-"data": "<data to send"
+"data": "<data to send>"
 }
-``` 
+```
 
 
 
 ### Sample API Call
 
 ```
-http://localhost:9090/command/core/sendData
+http://127.0.0.1:9090/command/webrtc/sendData
 
 {
 "peerId": "all",
@@ -49,12 +51,12 @@ http://localhost:9090/command/core/sendData
 }
 ```
 
-This will send Test Data in all peers connected in the same session
+This will send `Test Data` in all peers connected in the same session
 
 
 
 ### Success Response in JSON
-    
+
 ``` 
 {
     "success": true
@@ -66,14 +68,11 @@ This will send Test Data in all peers connected in the same session
 
 The JSON response contains the following details:
 
-- status – **TRUE** if the command was parsed and executed successfully, **FAIL** if not.
+- status – **true** if the command was parsed and executed successfully, **false** if not.
 
 
 ------
 
 ## Related Links
 
-- [enableService](enableService.html)
-- [listServices](listServices.html)
-- [shutdownService](shutdownService.html)
-- [acceptors](userguide_configlua.html#acceptors)
+- [getPeerId](getPeerId.html)

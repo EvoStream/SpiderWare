@@ -12,6 +12,8 @@ Reloads configuration.
 **Modules:** Core
 
 
+
+
 ## API Parameter Table
 
 
@@ -19,6 +21,7 @@ Reloads configuration.
 | :----------------: | :--------: | :-----------: | --------------------------------------------------- |
 |     configPath     |   string   |     false     | If not declared, defaults to current path used      |
 |   forceRestart     |   boolean  |     false     | Restarts the server after reloading configuration   |
+
 
 
 ## API Call Template
@@ -32,7 +35,8 @@ http://<spiderwareIP>:9090/command/<module>/reloadConfig
    "configPath": "C:\\Program Files\\SpiderWare\\config\\config.json",
    "forceRestart": "true"
 }
-``` 
+```
+
 
 
 ### Sample API Call
@@ -62,16 +66,3 @@ http://127.0.0.1:9090/command/core/reloadConfig
 The JSON response contains the following details:
 
 - status – **true** if the command was parsed and executed successfully, **false** if not.
-
-------
-
-## Notes
-
-- Please consider creating a backup of the old configuration file.
-
-
-
-## Related Links
-
-- [listConfig](listConfig.html)
-- [getConfigInfo](getConfigInfo.html)

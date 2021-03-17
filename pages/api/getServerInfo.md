@@ -14,14 +14,19 @@ Gets the SpiderWare instance information.
 **Modules:** Core
 
 
+
+
 ## API Parameter Table
 This function has no parameters.
+
+
 
 ## API Call Template
 
 ``` 
 http://<spiderwareIP>:9090/command/<module>/getServerInfo
 ```
+
 
 
 ### Sample API Call
@@ -60,9 +65,3 @@ The JSON response contains the following details:
   - revision - GIT revision short hash where the build was compiled
   - instanceId - instance identifier
   - licenseId - ID of the license being used by the running instance
-
-------
-
-## Related Links
-
-- [listConnections](listConnections.html)

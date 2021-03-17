@@ -1,9 +1,9 @@
 ---
-title: Stream Recorder
-keywords: webservices
-sidebar: evowebservices_sidebar
-permalink: evowebservices_streamrecorder.html
-folder: evowebservices
+title: Signaling Server
+keywords: exm
+sidebar: exm_sidebar
+permalink: exm_signalingserver.html
+folder: exm
 toc: false
 ---
 
