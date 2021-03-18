@@ -7,6 +7,10 @@ folder: home
 toc: false
 ---
 
+------
+
+
+
 ## What is SpiderWare?
 
 SpiderWare is a WebRTC based streaming application that supports direct peering between HTML5 browsers and any device that supports WebRTC. SpiderWare’s flexible architecture allows it to be readily integrated with any application to empower it  with peer-to-peer audio, video and meta-data streaming within any network environment.  To speed up your time to market, SpiderWare's team of streaming experts helps you develop, maintain and deploy your solution successfully.
