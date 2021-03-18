@@ -3,11 +3,11 @@
 topnav:
 - title: Topnav
   items:
-    - title: Home
+    - title: HOME
       url: /index.html
-    - title: User Guide
+    - title: USER GUIDE
       url: /userguide_overview.html
-    - title: ExM
+    - title: EXM
       url: /exm_overview.html
 
 #Topnav dropdowns
