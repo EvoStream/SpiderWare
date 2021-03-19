@@ -3,13 +3,13 @@ repository: tomjohnson1492/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: EvoStream - SpiderWare
+topnav_title: EvoStream
 # this appears on the top navigation bar next to the home button
 
 site_title: EvoStream
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Evostream Inc.
+company_name: Evostream Inc
 # this appears in the footer
 
 github_editme_path: ""
@@ -24,7 +24,7 @@ host: docs.evostream.com
 port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
-baseurl: /SpiderWare
+baseurl: /2.0-test
 
 exclude:
   - .idea/
@@ -102,9 +102,11 @@ sidebars:
 - other
 
 # sidebars used by evostream
-- home_sidebar
 - userguide_sidebar
-- exm_sidebar
+- api_sidebar
+- html5players_sidebar
+- emscloud_sidebar
+- evowebservices_sidebar
 
 gems:
   - jekyll-sitemap
