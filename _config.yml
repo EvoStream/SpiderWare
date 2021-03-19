@@ -24,8 +24,12 @@ host: docs.evostream.com
 port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
+<<<<<<< HEAD
 baseurl: /2.0-test
 
+=======
+baseurl: /SpiderWare/
+>>>>>>> origin/gh-pages
 exclude:
   - .idea/
   - .gitignore
