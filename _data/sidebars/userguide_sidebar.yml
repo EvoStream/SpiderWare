@@ -49,10 +49,6 @@ entries:
       url: /userguide_fitness.html
       output: web, pdf
 
-  - title: Advanced Use Cases
+    - title: Advanced Use Cases
       url: /userguide_advancedusecases.html
-      output: web, pdf
-
-  - title: Glossary
-      url: /userguide_glossary.html
       output: web, pdf
