@@ -28,7 +28,6 @@ entries:
       url: /exm_overview.html
       output: web, pdf
 
-    folderitems:
     - title: Installing ExM
       url: /exm_installation.html
       output: web, pdf
