@@ -7,10 +7,10 @@ entries:
 #  version: 1.0
   folders:
 
+
   - title:
     output: pdf
     type: frontmatter
-	
     folderitems:
     - title:
       url: /titlepage
@@ -40,14 +40,19 @@ entries:
   - title: Use Cases
     output: web, pdf
 
-    - title: Metadata Handling in Body Cameras/Dash Cameras
+    folderitems:
+    - title: Metadata Handling - SpiderWare in Body Cameras and Dash Cameras
       url: /userguide_metadatahandling.html
       output: web, pdf
 
-    - title: Advanced Use Cases
+    - title: SpiderWare and Fitness Equipment
+      url: /userguide_metadatahandling.html
+      output: web, pdf
+
+  - title: Advanced Use Cases
       url: /userguide_advancedusecases.html
       output: web, pdf
 
-    - title: Glossary
+  - title: Glossary
       url: /userguide_glossary.html
       output: web, pdf
