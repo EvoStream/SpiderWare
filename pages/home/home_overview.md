@@ -108,7 +108,7 @@ Specifically, SpiderWare can be deployed on the following:
 
 - **Embedded Deployment**
 
-With a lightweight footprint Spiderware can be embedded in a variety of IoT devices. (e.g. medical devices, surveillance cameras, smart home devices, watches or drones).
+With a lightweight footprint SpiderWare can be embedded in a variety of IoT devices. (e.g. medical devices, surveillance cameras, smart home devices, watches or drones).
 
 - **Cloud Deployment**
 
@@ -121,3 +121,9 @@ SpiderWare can be deployed on different operating systems.
 - Windows: 10 x64, Server 2012, Server 2012 R2
 - Linux: Debian, CentOS, RedHat, Ubuntu, openSUSE, and others
 - Mac OSX
+
+![](images/home/deploy1.PNG)
+
+![](images/home/deploy2.PNG)
+
+![](images/home/deploy3.PNG)

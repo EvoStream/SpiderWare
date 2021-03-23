@@ -9,20 +9,6 @@ toc: true
 
 ------
 
-Summary:
-
-A surveillance with NVR solution comprised of SpiderWare embedded IP Cameras connected to a central SpiderWare hub. The central SpiderWare hub ingests the camera streams via RTSP. When a client establishes a Peer with the SpiderWare hub, each ingested RTSP stream is sent as a separate video channel stream.
-
-The system supports a wide array of clients:
-
-● Web Browsers
-● IOS Devices
-● Android Devices
-
-
-
-In detail:
-
 Video surveillance systems typically involve the main user interface screen having at least 4 or more simultaneous active videos playing. This would require the client application to have 1 active stream session per active video panel. Likewise, the application developer would have to set aside resources and code to be able to manage the different concurrent stream sessions. (e.g. each stream would have its own handlers for errors, starting, stopping, events, etc.)
 
 With SpiderWare, it is possible to build a surveillance system where multiple video streams are contained in a single WebRTC peer session!
@@ -48,6 +34,8 @@ The setup involves ingest of multiple streams, from different cameras through RT
 
 
 
+
+
 ## SpiderWare Implementation: Multiple video streams per Peer Session
 
 ![](images/userguide/spiderwaresurveillance.png)
@@ -57,7 +45,7 @@ The setup involves ingest of multiple streams, from different cameras through RT
 | Item                                    | Description                                                  |
 | --------------------------------------- | ------------------------------------------------------------ |
 | Camera                                  | SpiderWare will be embedded on the camera.                   |
-| Network Video Recorder (NVR)            | Spiderware will be installed on the NVR.                     |
+| Network Video Recorder (NVR)            | SpiderWare will be installed on the NVR.                     |
 | SpiderWare Exchange Module Server (ExM) | This will be the WebRTC signaling server.                    |
 | STUN/TURN Server                        | Components used by WebRTC for establishing peer sessions via ICE protocol. |
 | Stream Player (Browser/iOS/Android)     | Will be used to view the streams directly from the camera or from the NVR device. |

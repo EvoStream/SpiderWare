@@ -105,7 +105,6 @@ sidebars:
 # sidebars used by evostream
 - userguide_sidebar
 - exm_sidebar
-- home_sidebar
 
 gems:
   - jekyll-sitemap

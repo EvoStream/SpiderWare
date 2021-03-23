@@ -4,7 +4,7 @@ keywords: webrtc
 sidebar: userguide_sidebar
 permalink: userguide_webrtcsignaling.html
 folder: userguide
-toc: true
+toc: false
 ---
 
 ------
