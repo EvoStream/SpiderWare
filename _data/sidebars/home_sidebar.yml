@@ -3,9 +3,10 @@
 
 entries:
 - title: Sidebar
-  product: Home
+  product: User Guide
 #  version: 1.0
   folders:
+
 
   - title:
     output: pdf
@@ -20,23 +21,38 @@ entries:
       output: pdf
       type: frontmatter
 
-
-  - title: EvoStream Media Server
+  - title: Discussion
     output: web, pdf
 
     folderitems:
     - title: Overview
-      url: /home_overview.html
+      url: /userguide_overview.html
       output: web, pdf
 
-    - title: Quick Start Guide on Windows
-      url: /home_quickstartguidewindows.html
+    - title: WebRTC
+      url: /userguide_webrtc.html
       output: web, pdf
 
-    - title: Quick Start Guide on Linux
-      url: /home_quickstartguidelinux.html
+    - title: WebRTC Signaling
+      url: /userguide_webrtcsignaling.html
       output: web, pdf
 
-    - title: Release Notes
-      url: /home_releasenotes.html
+  - title: Use Cases
+    output: web, pdf
+
+    folderitems:
+    - title: Metadata Handling - SpiderWare in Body Cameras and Dash Cameras
+      url: /userguide_metadatahandling.html
+      output: web, pdf
+
+    - title: SpiderWare and Fitness Equipment
+      url: /userguide_fitness.html
+      output: web, pdf
+
+  - title: Advanced Use Cases
+      url: /userguide_advancedusecases.html
+      output: web, pdf
+
+  - title: Glossary
+      url: /userguide_glossary.html
       output: web, pdf
