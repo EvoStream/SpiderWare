@@ -46,7 +46,7 @@ entries:
       output: web, pdf
 
     - title: SpiderWare and Fitness Equipment
-      url: /userguide_metadatahandling.html
+      url: /userguide_fitness.html
       output: web, pdf
 
   - title: Advanced Use Cases
