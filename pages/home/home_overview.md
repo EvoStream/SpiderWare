@@ -122,8 +122,8 @@ SpiderWare can be deployed on different operating systems.
 - Linux: Debian, CentOS, RedHat, Ubuntu, openSUSE, and others
 - Mac OSX
 
-![](images/home/deploy1.PNG)
+![](images/home/deploy1.png)
 
-![](images/home/deploy2.PNG)
+![](images/home/deploy2.png)
 
-![](images/home/deploy3.PNG)
+![](images/home/deploy3.png)

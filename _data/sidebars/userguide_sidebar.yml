@@ -52,3 +52,19 @@ entries:
     - title: Advanced Use Cases
       url: /userguide_advancedusecases.html
       output: web, pdf
+	  
+  - title: How To's
+    output: web, pdf
+
+    folderitems:
+    - title: Starting SpiderWare
+      url: /userguide_startspiderware.html
+      output: web, pdf
+
+    - title: Viewing the Camera Stream
+      url: /userguide_viewstream.html
+      output: web, pdf
+
+    - title: Stopping SpiderWare
+      url: /userguide_stopspiderware.html
+      output: web, pdf
