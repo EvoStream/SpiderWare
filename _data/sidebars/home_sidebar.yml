@@ -3,10 +3,9 @@
 
 entries:
 - title: Sidebar
-  product: User Guide
+  product: Home
 #  version: 1.0
   folders:
-
 
   - title:
     output: pdf
@@ -21,38 +20,23 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Discussion
+
+  - title: SpiderWare
     output: web, pdf
 
     folderitems:
     - title: Overview
-      url: /userguide_overview.html
+      url: /home_overview.html
       output: web, pdf
 
-    - title: WebRTC
-      url: /userguide_webrtc.html
+    - title: Quick Start Guide on Windows
+      url: /home_quickstartguidewindows.html
       output: web, pdf
 
-    - title: WebRTC Signaling
-      url: /userguide_webrtcsignaling.html
+    - title: Quick Start Guide on Linux
+      url: /home_quickstartguidelinux.html
       output: web, pdf
 
-  - title: Use Cases
-    output: web, pdf
-
-    folderitems:
-    - title: Metadata Handling - SpiderWare in Body Cameras and Dash Cameras
-      url: /userguide_metadatahandling.html
-      output: web, pdf
-
-    - title: SpiderWare and Fitness Equipment
-      url: /userguide_fitness.html
-      output: web, pdf
-
-  - title: Advanced Use Cases
-      url: /userguide_advancedusecases.html
-      output: web, pdf
-
-  - title: Glossary
-      url: /userguide_glossary.html
+    - title: Release Notes
+      url: /home_releasenotes.html
       output: web, pdf
