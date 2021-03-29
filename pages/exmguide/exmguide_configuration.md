@@ -1,8 +1,8 @@
 ---
 title: ExM Configuration
 keywords: exm
-sidebar: exm_sidebar
-permalink: exm_configuration.html
+sidebar: exmguide_sidebar
+permalink: exmguide_configuration.html
 folder: exm
 toc: true
 ---

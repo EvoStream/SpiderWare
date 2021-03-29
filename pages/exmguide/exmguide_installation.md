@@ -1,8 +1,8 @@
 ---
 title: ExM Installation
 keywords: exm installation
-sidebar: exm_sidebar
-permalink: exm_installation.html
+sidebar: exmguide_sidebar
+permalink: exmguide_installation.html
 folder: exm
 toc: true
 ---

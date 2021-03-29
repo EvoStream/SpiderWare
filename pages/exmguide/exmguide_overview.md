@@ -1,8 +1,8 @@
 ---
 title: Overview
 keywords: exm
-sidebar: exm_sidebar
-permalink: exm_overview.html
+sidebar: exmguide_sidebar
+permalink: exmguide_overview.html
 folder: exm
 toc: false
 ---

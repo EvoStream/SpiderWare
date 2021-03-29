@@ -1,8 +1,8 @@
 ---
 title: Signaling Server
 keywords: exm
-sidebar: exm_sidebar
-permalink: exm_signalingserver.html
+sidebar: exmguide_sidebar
+permalink: exmguide_signalingserver.html
 folder: exm
 toc: false
 ---

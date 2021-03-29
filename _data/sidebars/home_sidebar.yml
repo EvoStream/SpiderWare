@@ -36,6 +36,10 @@ entries:
     - title: Quick Start Guide on Linux
       url: /home_quickstartguidelinux.html
       output: web, pdf
+      
+    - title: Quick Start Guide on Axis Camera
+      url: /homequickstartguideaxis.html
+      output: web, pdf
 
     - title: Release Notes
       url: /home_releasenotes.html

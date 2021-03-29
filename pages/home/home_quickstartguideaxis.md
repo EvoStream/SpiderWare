@@ -1,6 +1,6 @@
 ---
 title: Quick Start Guide on Axis Camera
-keywords: quick start guide
+keywords: axis
 sidebar: home_sidebar
 permalink: /home_quickstartguideaxis.html
 folder: home

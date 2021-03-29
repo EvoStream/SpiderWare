@@ -25,17 +25,17 @@ entries:
 
     folderitems:
     - title: Overview
-      url: /exm_overview.html
+      url: /exmguide_overview.html
       output: web, pdf
 
     - title: Installing ExM
-      url: /exm_installation.html
+      url: /exmguide_installation.html
       output: web, pdf
 
     - title: Configuring ExM
-      url: /exm_configuration.html
+      url: /exmguide_configuration.html
       output: web, pdf
 
     - title: Signaling Server
-      url: /exm_signalingserver.html
+      url: /exmguide_signalingserver.html
       output: web, pdf
