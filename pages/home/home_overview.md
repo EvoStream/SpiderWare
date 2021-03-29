@@ -4,12 +4,12 @@ keywords: spiderware
 sidebar: home_sidebar
 permalink: /home_overview.html
 folder: home
-toc: false
+toc: true
 ---
 
 ------
 
-
+------
 
 ## What is SpiderWare?
 
@@ -19,47 +19,74 @@ SpiderWare is a WebRTC based streaming application that supports direct peering 
 
 ## Features of SpiderWare
 
-- **H264 and G711 Support**
+
+
+![](images/home/h264.png) **H264 and G711 Support**
 
 Supports transport of H264 and G711 codecs along with other codecs that can be easily added such as VP8/VP9 for video, and Opus for audio.
 
-- **Two-way Audio Support**
+
+
+![](images/home/two_way_audio.png) **Two-way Audio Support**
 
 Full support of two-way audio communication.
 
-- **Acoustic Echo Cancellation**
+
+
+![](images/home/acoustic_echo.png) **Acoustic Echo Cancellation**
 
 Built-in AEC and noise reduction mechanisms.
 
-- **Jitter Buffer and Error Resilincy Mechanisms**
+
+
+![](images/home/jitter_buffer.png) **Jitter Buffer and Error Resiliency Mechanisms**
 
 Mitigates effects of packet loss and unreliable networks.
 
-- **Native Stream Ingest**
+
+
+![](images/home/native_stream_ingest.png) **Native Stream Ingest**
 
 Capture Video/Audio through C API.
 
-- **HTML5 Player Library**
+
+
+![](images/home/html5_player.png) **HTML5 Player Library**
 
 Video and audio playback with audio transmission from a browser.
 
-- **iOS and Android player libraries**
+
+
+![](images/home/ios_android.png) **iOS and Android player libraries**
 
 Video and audio playback with audio transmission from mobile devices.
 
-- **Basic Streaming Support**
 
-Recording Features
 
-- **Bi-Directional Metadata Delivery**
+![](images/home/basic_streaming.png) **Basic Streaming Support**
 
-Support for popular protocols at your disposal at every level of your streaming workflow.
+Support for popular protocols at your disposal at every level of your streaming
+workflow.
 
-- **Recording Features**
+
+
+![](images/home/recording_feaures.png) **Recording Features**
 
 Network Video Recorder (NVR).
 
-- **Bi-Directional Metadata Delivery**
+
+
+![](images/home/bi_directional.png) **Bi-Directional Metadata Delivery**
+
+
+
+|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![](images/home/recording_feaures.png) Recording Features    | Network Video Recorder (NVR).                                |
+| ![](images/home/basic_streaming.png) Basic Streaming Support | Recording Features                                           |
+| ![](images/home/ios_android.png) iOS and Android player libraries | Video and audio playback with audio transmission from mobile devices. |
+
+
 
 
 ## Benefits of SpiderWare
