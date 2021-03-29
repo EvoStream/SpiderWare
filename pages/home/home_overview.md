@@ -21,31 +21,31 @@ SpiderWare is a WebRTC based streaming application that supports direct peering 
 
 
 
-![](images/home/h264.png) **H264 and G711 Support**
+![](images/home/h264.png =50x) **H264 and G711 Support**
 
 Supports transport of H264 and G711 codecs along with other codecs that can be easily added such as VP8/VP9 for video, and Opus for audio.
 
 
 
-![](images/home/two_way_audio.png) **Two-way Audio Support**
+![](images/home/two_way_audio.png =100x ) **Two-way Audio Support**
 
 Full support of two-way audio communication.
 
 
 
-![](images/home/acoustic_echo.png) **Acoustic Echo Cancellation**
+![](images/home/acoustic_echo.png =150x) **Acoustic Echo Cancellation**
 
 Built-in AEC and noise reduction mechanisms.
 
 
 
-![](images/home/jitter_buffer.png) **Jitter Buffer and Error Resiliency Mechanisms**
+![](images/home/jitter_buffer.png =200x ) **Jitter Buffer and Error Resiliency Mechanisms**
 
 Mitigates effects of packet loss and unreliable networks.
 
 
 
-![](images/home/native_stream_ingest.png) **Native Stream Ingest**
+![](images/home/native_stream_ingest.png =250x) **Native Stream Ingest**
 
 Capture Video/Audio through C API.
 
@@ -77,14 +77,6 @@ Network Video Recorder (NVR).
 
 
 ![](images/home/bi_directional.png) **Bi-Directional Metadata Delivery**
-
-
-
-|                                                              |                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![](images/home/recording_feaures.png) Recording Features    | Network Video Recorder (NVR).                                |
-| ![](images/home/basic_streaming.png) Basic Streaming Support | Recording Features                                           |
-| ![](images/home/ios_android.png) iOS and Android player libraries | Video and audio playback with audio transmission from mobile devices. |
 
 
 
@@ -127,27 +119,10 @@ SpiderWare embeds seamlessly in your application or device, without interfering 
 SpiderWare enables devices to ‘talk’ to each other. Given this premise, it is possible to create an ecosystem where SpiderWare powered devices can exchange information and work together
 
 
+
 ## Deployment
+
 On practically everything! It runs on Windows, Linux, Mac OSX. It can be hosted on a robust server or on a small ARM based IP Camera, or anything in-between.
-
-Specifically, SpiderWare can be deployed on the following:
-
-
-- **Embedded Deployment**
-
-With a lightweight footprint SpiderWare can be embedded in a variety of IoT devices. (e.g. medical devices, surveillance cameras, smart home devices, watches or drones).
-
-- **Cloud Deployment**
-
-SpiderWare can be deployed as a cloud-based solution to allow for the development of traditional web conferencing applications that run in a browser (e.g. live chat applications, video conferencing or gaming).
-
-- **Server Deployment**
-
-SpiderWare can be deployed on different operating systems.
-
-- Windows: 10 x64, Server 2012, Server 2012 R2
-- Linux: Debian, CentOS, RedHat, Ubuntu, openSUSE, and others
-- Mac OSX
 
 ![](images/home/deploy1.png)
 
