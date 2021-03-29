@@ -52,7 +52,7 @@ entries:
     - title: Advanced Use Cases
       url: /userguide_advancedusecases.html
       output: web, pdf
-	  
+
   - title: How To's
     output: web, pdf
 
