@@ -7,7 +7,7 @@ folder: exm
 toc: true
 ---
 
-
+------
 
 **Warning!** Before you edit the configuration file please make a backup copy. If the configuration file is edited incorrectly, ExM will fail to start! We highly recommend that you use an editor that is capable of parsing JSON formatted text files. That way, the editor can quickly tell you if you broke the JSON format.
 

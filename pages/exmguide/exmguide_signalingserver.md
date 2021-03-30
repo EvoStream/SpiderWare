@@ -7,7 +7,7 @@ folder: exm
 toc: false
 ---
 
-
+------
 
 This web service tells the EMS to automatically records streams.
 

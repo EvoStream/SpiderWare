@@ -7,7 +7,9 @@ folder: exm
 toc: true
 ---
 
-# Installation via NPM
+------
+
+## Installation via NPM
 
 Installing ExM via our private NPM registry is the recommended method. Furthermore, it guarantees that you have the latest file at the time of installation. You just need to issue an npm install command for exm from the repository at **https://webrtc.evostream.com:9000**.
 
@@ -25,7 +27,7 @@ If you installed ExM via NPM, the configuration can be found at **./node_modules
 
 
 
-# Installation via Tarball Method
+## Installation via Tarball Method
 
 **Unpacking the ExM Tarball**
 
@@ -58,6 +60,6 @@ npm i
 
 The configuration file is stored under the file, **./config/default.json**. Before you start ExM, you edit the configuration file to suit your environment setup.
 
-​
+
 
 
