@@ -1,5 +1,5 @@
 ---
-title: Sending Multiple Video Streams on a Single Peer Connection
+title: Advanced Use Cases
 keywords: usecase
 sidebar: userguide_sidebar
 permalink: userguide_advancedusecases.html
