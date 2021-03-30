@@ -20,9 +20,10 @@ SpiderWare										>> Main Folder
 	EULA.pdf									>> End Users License Agreement fIle
 	INFO										>> Build Information
 	spiderware.exe/spiderware					>> SpiderWare Executable File
+	
 ```
 
-**config.json** - contains the configuration settings of SpiderWare. See [Configuration File](https://docs.google.com/document/d/1WahcEYitep7NA4SyQJJLdYIoqJSOLsw3ROlhsBsxLag/edit#heading=h.cak19tm1pqb)
+**config.json** - contains the configuration settings of SpiderWare.
 
 **.init**- generated on the first run of SpiderWare. This is used to bind a license into the machine
 

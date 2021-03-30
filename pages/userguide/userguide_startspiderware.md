@@ -61,22 +61,21 @@ Whether you SpiderWare is installed in a server or in the camera, there is only 
 
 
 
-### SpiderWare Startup
+## SpiderWare Startup
 
 ```
-Reading license from license\LICENSE
+Reading license from LICENSE
 Validating License
-Activating SpiderWare 1.0.0.0.....
+Activating SpiderWare 1.0.3...
 Initializing signal handlers...
-Registering webrtc commandset
 Starting web server...
 Web service module started at port 9090.
 Starting webrtc module...
-Instance ID: n5SXct7LPRoH7+PWUdN004rSWhq4tcxKsd7S9EIQlpBryuwEa8xzAsWy270D5UZt1K7EG3/fITuUbL330zDMJ81G50HhVA==
+Instance ID:
 Initializing exchange module client...
 Exchange module server: https://exm.evostream.com:5555
-[2020-07-27 11:42:54] [connect] Successful connection
-[2020-07-27 11:42:55] [connect] WebSocket Connection 149.28.186.33:5555 v-2 "WebSocket++/0.8.2" /socket.io/?EIO=4&transport=websocket&t=1595821374 101
+[2021-03-30 23:40:51] [connect] Successful connection
+[2021-03-30 23:40:52] [connect] WebSocket Connection 149.28.186.33:5555 v-2 "WebSocket++/0.8.2" /socket.io/?EIO=4&transport=websocket&t=1617118850 101
 Exchange module connected.
 Detecting video and audio sources...
 Video sources:
@@ -93,6 +92,6 @@ SpiderWare activated.
 
 
 
-### Binded License
+## Binded License
 
 A license is binded to a machine given that the license generated contains the Instance ID of the device. This license will not be able to be used on other machines. 
