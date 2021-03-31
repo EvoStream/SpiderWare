@@ -17,64 +17,57 @@ SpiderWare is a WebRTC based streaming application that supports direct peering 
 
 ## Features of SpiderWare
 
-![](images/home/features.png)
+![](images/home/feat1.png)
 
-![](images/home/h264.png =50x50) **H264 and G711 Support**
+![](images/home/feat2.png)
+
+![](images/home/feat3.png)
+
+
+
+**H264 and G711 Support**
 
 Supports transport of H264 and G711 codecs along with other codecs that can be easily added such as VP8/VP9 for video, and Opus for audio.
 
 
 
-![](images/home/two_way_audio.png height="24") **Two-way Audio Support**
+**Two-way Audio Support**
 
 Full support of two-way audio communication.
 
 
 
-![](images/home/acoustic_echo.png =24x48) **Acoustic Echo Cancellation**
+**Acoustic Echo Cancellation**
 
 Built-in AEC and noise reduction mechanisms.
 
 
 
-![](images/home/jitter_buffer.png | width=48) **Jitter Buffer and Error Resiliency Mechanisms**
+ **Jitter Buffer and Error Resiliency Mechanisms**
 
 Mitigates effects of packet loss and unreliable networks.
 
 
 
-![](images/home/native_stream_ingest.png width="250") **Native Stream Ingest**
+ **Native Stream Ingest**
 
 Capture Video/Audio through C API.
 
 
 
-![](images/home/html5_player.png) **HTML5 Player Library**
+**HTML5 Player Library**
 
 Video and audio playback with audio transmission from a browser.
 
 
 
-![](images/home/ios_android.png) **iOS and Android player libraries**
+**iOS and Android player libraries**
 
 Video and audio playback with audio transmission from mobile devices.
 
 
 
-![](images/home/basic_streaming.png) **Basic Streaming Support**
-
-Support for popular protocols at your disposal at every level of your streaming
-workflow.
-
-
-
-![](images/home/recording_feaures.png) **Recording Features**
-
-Network Video Recorder (NVR).
-
-
-
-![](images/home/bi_directional.png) **Bi-Directional Metadata Delivery**
+**Bi-Directional Metadata Delivery**
 
 
 
