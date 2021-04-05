@@ -11,7 +11,7 @@ toc: true
 
 Whether you SpiderWare is installed in a server or in the camera, there is only one way to start SpiderWare.
 
-### Linux
+## Linux
 
 1. Open a terminal
 
@@ -25,7 +25,7 @@ Whether you SpiderWare is installed in a server or in the camera, there is only 
 
 
 
-### Windows
+## Windows
 
 1. Open a terminal
 

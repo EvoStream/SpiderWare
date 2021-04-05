@@ -1,5 +1,5 @@
 ---
-title: Viewing Stream
+title: Viewing the Camera Stream
 keywords: view
 sidebar: userguide_sidebar
 permalink: userguide_viewstream.html
