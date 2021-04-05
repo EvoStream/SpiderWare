@@ -19,56 +19,6 @@ SpiderWare is a WebRTC based streaming application that supports direct peering 
 
 ![](images/home/feat1.png)
 
-![](images/home/feat2.png)
-
-![](images/home/feat3.png)
-
-
-
-**H264 and G711 Support**
-
-Supports transport of H264 and G711 codecs along with other codecs that can be easily added such as VP8/VP9 for video, and Opus for audio.
-
-
-
-**Two-way Audio Support**
-
-Full support of two-way audio communication.
-
-
-
-**Acoustic Echo Cancellation**
-
-Built-in AEC and noise reduction mechanisms.
-
-
-
- **Jitter Buffer and Error Resiliency Mechanisms**
-
-Mitigates effects of packet loss and unreliable networks.
-
-
-
- **Native Stream Ingest**
-
-Capture Video/Audio through C API.
-
-
-
-**HTML5 Player Library**
-
-Video and audio playback with audio transmission from a browser.
-
-
-
-**iOS and Android player libraries**
-
-Video and audio playback with audio transmission from mobile devices.
-
-
-
-**Bi-Directional Metadata Delivery**
-
 
 
 
