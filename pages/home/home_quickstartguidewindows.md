@@ -28,39 +28,39 @@ Password : wWCU4iTG#$c4Pfq@
 
    2.2. Right-click on `setup.exe` then click **Run as administrator**
 
-   ​
+   
 
    2.3. Click **Next** to continue the installation
 
    ![](images/home/install_1.JPG)
 
-   ​
+   
 
    2.4. Verify the installation path, click **Next**
 
    ![](images/home/install_2.JPG)
 
-   ​
+   
 
    2.5. Read the license agreement and select **I agree**, click **Next**
 
    ![](images/home/install_3.JPG)
 
-   ​
+   
 
    2.6. Click **Next** to confirm the installation
 
    ![](images/home/install_4.JPG)
 
-   ​
+   
 
    2.7. Click **Close** to finish the installation.
 
    ![](images/home/install_5.JPG)
 
-   ​
+   
 
-   ​
+   
 
 
 ## License Installation
@@ -86,18 +86,44 @@ You can find the configuration file in `C:\Program Files\SpiderWare\config\confi
 
 To start SpiderWare, simply run the command below in terminal:
 
-```
-spiderware.exe config\config.json license\license
-```
+1. Open a terminal
 
-![](images/home/shortcut.JPG)
+2. Locate the SpiderWare folder
 
+3. Run the command below
 
-This will call the configuration file and validates the license in the given path
+   ```
+   spiderware.exe config\config.json license\License
+   ```
 
-![](images/userguide/start.JPG)
+   This will call the configuration file and validates the license in the given path
 
+   ```
+   Reading license from LICENSE
+   Validating License
+   Activating SpiderWare 1.0.3...
+   Initializing signal handlers...
+   Starting web server...
+   Web service module started at port 9090.
+   Starting webrtc module...
+   Instance ID:
+   Initializing exchange module client...
+   Exchange module server: https://exm.evostream.com:5555
+   [2021-03-30 23:40:51] [connect] Successful connection
+   [2021-03-30 23:40:52] [connect] WebSocket Connection 149.28.186.33:5555 v-2 "WebSocket++/0.8.2" /socket.io/?EIO=4&transport=websocket&t=1617118850 101
+   Exchange module connected.
+   Detecting video and audio sources...
+   Video sources:
+   [ "Lenovo EasyCamera", "Wirecast Virtual Camera" ]
+   
+   Audio sources:
+   [ "Microphone (Realtek High Definition Audio)" ]
+   
+   Webrtc module started. Ready to accept connections.
+   SpiderWare activated.
+   ```
 
+   
 
 To check running applications, open the Task Manager and you should see:
 
