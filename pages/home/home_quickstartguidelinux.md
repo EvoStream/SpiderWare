@@ -84,9 +84,10 @@ To start SpiderWare, simply run the command below in terminal:
    SpiderWare activated.
    ```
 
-   
 
-Check in terminal if SpiderWare is running by sending **ps –e|grep spiderware** command. You should see:
+
+
+Check in terminal if SpiderWare is running by sending `ps –e|grep spiderware` command. You should see:
 
 ```
 user@ubuntu:~$ ps –e|grep spiderware
