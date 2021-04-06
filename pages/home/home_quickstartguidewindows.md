@@ -138,7 +138,7 @@ SpiderWare by EvoStream
 ## Stream Playback
 
 To view the stream through WebRTC with a demo page:
-1. Using a browser, open https://exm.evostream.com/
+1. Using a browser, open <https://exm.evostream.com/>
 2. Enter the session name on the input field that matches the session parameter on the config.json file that you received
 3. Click on “**Connect**”
 4. On the left pane of the demo page, select a stream from currently connected SpiderWare instances.

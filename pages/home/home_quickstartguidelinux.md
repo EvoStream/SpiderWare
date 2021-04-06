@@ -7,6 +7,8 @@ folder: home
 toc: true
 ---
 
+------
+
 This document provides instructions on how to install SpiderWare application on Linux operating systems.
 The document also provide instructions on installing and starting SpiderWare, adding and playing source streams and shutting down SpiderWare.
 
@@ -16,10 +18,10 @@ The document also provide instructions on installing and starting SpiderWare, ad
 
 1. Download the SpiderWare tarball at <https://spiderware.evostream.com/release/>
 
-```
-Username : spiderware
-Password : wWCU4iTG#$c4Pfq@
-```
+   ```
+   Username : spiderware
+   Password : wWCU4iTG#$c4Pfq@
+   ```
 
 2. Install SpiderWare
 
@@ -84,7 +86,7 @@ To start SpiderWare, simply run the command below in terminal:
 
    
 
-Check in terminal if SpiderWare is running by sending **`ps –e|grep spiderware** command. You should see
+Check in terminal if SpiderWare is running by sending **ps –e|grep spiderware** command. You should see:
 
 ```
 user@ubuntu:~$ ps –e|grep spiderware
@@ -97,7 +99,7 @@ user@ubuntu:~$ ps –e|grep spiderware
 
 To view the stream through WebRTC with a demo page:
 
-1. Using a browser, open https://exm.evostream.com/
+1. Using a browser, open <https://exm.evostream.com/>
 2. Enter the session name on the input field that matches the session parameter on the config.json file that you received
 3. Click on “**Connect**”
 4. On the left pane of the demo page, select a stream from currently connected SpiderWare instances.
