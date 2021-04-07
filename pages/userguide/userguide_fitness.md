@@ -39,6 +39,3 @@ In the diagram above, you see the online lobby function of the SpiderWare ExM Si
 Another possible setup would be to offer the Fitness Device device as a standalone system (unattached to an exercise machine). This device can then be used for general exercise classes like aerobics or rehabilitation/therapy.
 
 In this setup, users can have separate sensors on their body (especially useful for rehabilitation/therapy), which are plugged into the Fitness Device device. The sensors can then be read by SpiderWare and shared to the trainer or therapist, etc.
-
-
-

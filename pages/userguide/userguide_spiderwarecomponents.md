@@ -1,8 +1,8 @@
 ---
-title: SpiderWare Components
+title: SpiderWare Configuration
 keywords: spiderware
 sidebar: userguide_sidebar
-permalink: userguide_spiderwarecomponents.html
+permalink: userguide_spiderwareconfiguration.html
 folder: userguide
 toc: true
 ---
