@@ -12,13 +12,13 @@ toc: true
 ## Structure
 
 ```
-SpiderWare							>> Main Folder
-	config							>> Configuration Folder
-		config.json					>> Configuration File
-	.init 							>> Initialization File
-	EULA.pdf						>> End Users License Agreement fIle
-	INFO							>> Build Information
-	spiderware.exe/spiderware		>> SpiderWare Executable File
+SpiderWare 
+	config 
+		config.json 
+	.init 
+	EULA.pdf 
+	INFO
+	spiderware.exe/spiderware
 ```
 
 **config.json** - contains the configuration settings of SpiderWare.
@@ -47,22 +47,38 @@ The config.json file is the configuration file used in SpiderWare
 
 ```
 {
-    "version": "1.0.0",							>> SpiderWare Version
+    "version": "1.0.0",
     "web": {
-        "port": 9090,							>> Port number (SpiderWare)
-        "docRoot": "../webroot"					>> Webroot Directory
+        "port": 9090,
+        "docRoot": "../webroot"
     },
     "webrtc": {
-        "user": "myemailt@mail.com",			>> Username
-        "password": "password",					>> Username's Password
-        "session": "mysession",					>> Session Name
-        "signaling": "https://exm.evostream.com:5555"		>> Signaling Server URL
+        "user": "myemailt@mail.com",
+        "password": "password",
+        "session": "mysession",
+        "signaling": "https://exm.evostream.com:5555"
     },
     "sources": {
         "rtsp": "default"									
     }
 }
 ```
+
+**version** - the SpiderWare application version
+
+**port** - the port number used by the SpiderWare application
+
+**docRoot** - the webroot directory
+
+**user** - the email to be used in for the WebRTC communication
+
+**password** - the password set for the user
+
+**session** - the session name where the SpiderWare will join to
+
+**signaling** - the URL of the signaling server to be used 
+
+
 
 **Note:** User, password, session are all set in ExM Manager.
 

@@ -17,7 +17,9 @@ SpiderWare is a WebRTC based streaming application that supports direct peering 
 
 ## Features of SpiderWare
 
-![](images/home/feat3.png)
+![](images/home/feat5.png)
+
+![](images/home/feat6.png)
 
 
 
