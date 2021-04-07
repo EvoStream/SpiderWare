@@ -120,5 +120,9 @@ Exchange module closed.
 
 
 
+**Notes:** 
 
+- We support Ubuntu 18.04 x64 and above
+
+- Dependencies: Google WebRTC library, boost, socket.io-cpp, and live555
 

@@ -37,26 +37,14 @@ entries:
       url: /userguide_webrtcsignaling.html
       output: web, pdf
 
-  - title: Use Cases
-    output: web, pdf
-
-    folderitems:
-    - title: Metadata Handling - SpiderWare in Body Cameras and Dash Cameras
-      url: /userguide_metadatahandling.html
-      output: web, pdf
-
-    - title: SpiderWare and Fitness Equipment
-      url: /userguide_fitness.html
-      output: web, pdf
-
-    - title: Advanced Use Cases
-      url: /userguide_advancedusecases.html
-      output: web, pdf
-
   - title: How To's
     output: web, pdf
 
     folderitems:
+    - title: SpiderWare Configuration
+      url: /userguide_spiderwareconfiguration.html
+      output: web, pdf
+
     - title: Starting SpiderWare
       url: /userguide_startspiderware.html
       output: web, pdf
@@ -67,4 +55,20 @@ entries:
 
     - title: Stopping SpiderWare
       url: /userguide_stopspiderware.html
+      output: web, pdf
+
+  - title: Use Cases
+    output: web, pdf
+
+    folderitems:
+    - title: BodyCam and DashCam
+      url: /userguide_bodydashcam.html
+      output: web, pdf
+
+    - title: Fitness Equipment
+      url: /userguide_fitness.html
+      output: web, pdf
+
+    - title: Advanced Use Cases
+      url: /userguide_advancedusecases.html
       output: web, pdf

@@ -1,8 +1,8 @@
 ---
-title: Metadata Handling - SpiderWare in BodyCams and DashCams
+title: BodyCam and DashCam
 keywords: metadata
-sidebar: userguide_metadatahandling
-permalink: userguide_metadatahandling.html
+sidebar: userguide_bodydashcam
+permalink: userguide_bodydashcam.html
 folder: userguide
 toc: false
 ---
@@ -15,7 +15,7 @@ toc: false
 
 ## Setup
 
-### Dashcam
+### Dash Camera
 
 Equipped with a GPS and a mobile connection, and running an embedded version of SpiderWare. The Dashcam could be installed on a patrol car or a delivery truck.
 
@@ -25,7 +25,9 @@ Since WebRTC supports two way streaming, the user of the application can also st
 
 At the same time, SpiderWare can also stream sensor data such as GPS, telemetry and and other statistics back to the client. The additional data can be utilized to provide a richer user experience for the client. For instance, GPS data can be leveraged to show a real time map with the approximate position and direction of the vehicle.
 
-### Bodycam
+
+
+### Body Camera
 
 As with the Dashcam, the Bodycam be equipped with a GPS and a mobile connection, and running an embedded version of SpiderWare. This will be worn by a law enforcement officer while on mission.
 
@@ -34,6 +36,8 @@ SpiderWare allows a client application to establish a WebRTC peering session wit
 As with the Dashcam use-case, the viewer can take advantage of the two-way streaming by sending audio streams back to the Bodycam.
 
 Data is sent in parallel with the stream in the form of GPS, telemetry and and other the officer's vital statistics (assuming the bodycam can capture such data) back to the client.
+
+
 
 ## Workflow
 
@@ -46,6 +50,8 @@ To prevent any loss of quality and crucial video data, the bodycam/dashcam will 
 While video/audio streams are being sent out, continuous delivery of metadata can be enabled that allows sending of GPS, accelerometer, and other applicable device/sensor data to the central server. For scenarios where the lowest latency playback is desired, the feature Priority View can be activated: where the playback directly connects to the devices, bypassing the central server, and allowing a true peer to peer connection with the devices.
 
 In all cases, metadata such as GPS location, are continuously sent to the central server that allows real time monitoring, geo tagging, and plotting of the “spider-enabled” devices on an interactive map. These “moving points” can then be selected to view the corresponding video streams.
+
+
 
 ## Features
 
