@@ -12,15 +12,13 @@ toc: true
 ## Structure
 
 ```
-
-SpiderWare										>> Main Folder
-	config										>> Configuration Folder
-		config.json								>> Configuration File
-	.init 										>> Initialization File
-	EULA.pdf									>> End Users License Agreement fIle
-	INFO										>> Build Information
-	spiderware.exe/spiderware					>> SpiderWare Executable File
-	
+SpiderWare							>> Main Folder
+	config							>> Configuration Folder
+		config.json					>> Configuration File
+	.init 							>> Initialization File
+	EULA.pdf						>> End Users License Agreement fIle
+	INFO							>> Build Information
+	spiderware.exe/spiderware		>> SpiderWare Executable File
 ```
 
 **config.json** - contains the configuration settings of SpiderWare.
@@ -49,19 +47,19 @@ The config.json file is the configuration file used in SpiderWare
 
 ```
 {
-    "version": "1.0.0",										>> SpiderWare Version
+    "version": "1.0.0",							>> SpiderWare Version
     "web": {
-        "port": 9090,										>> Port number (SpiderWare)
-        "docRoot": "../webroot"								>> Webroot Directory
+        "port": 9090,							>> Port number (SpiderWare)
+        "docRoot": "../webroot"					>> Webroot Directory
     },
     "webrtc": {
-        "user": "myemailt@mail.com",						>> Username
-        "password": "password",								>> Username's Password
-        "session": "mysession",								>> Session Name
+        "user": "myemailt@mail.com",			>> Username
+        "password": "password",					>> Username's Password
+        "session": "mysession",					>> Session Name
         "signaling": "https://exm.evostream.com:5555"		>> Signaling Server URL
     },
     "sources": {
-        "rtsp": "default"									>> ??
+        "rtsp": "default"									
     }
 }
 ```
