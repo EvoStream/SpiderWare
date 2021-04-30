@@ -36,6 +36,6 @@ entries:
       url: /exmguide_configuration.html
       output: web, pdf
 
-    - title: Signaling Server
-      url: /exmguide_signalingserver.html
+    - title: Starting ExM
+      url: /exmguide_startexm.html
       output: web, pdf
